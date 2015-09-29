@@ -1,0 +1,703 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for in.gov.uidai:uidai-biometric-integration-api:jar:1.6
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 46, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for in.gov.uidai:uidai-auth-xsd-model:jar:1.6
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:jaxb2-maven-plugin is missing. @ line 37, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 52, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for in.gov.uidai:uidai-auth-client:jar:1.6
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: bouncycastle:bcprov-jdk16:jar -> duplicate declaration of version 140 @ line 67, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 94, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for in.gov.uidai:uidai-sample-gui-app:jar:1.6
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 83, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Biometric Integration API
+[INFO] Authentication XSD Model
+[INFO] UID Protobuf Model
+[INFO] Authentication Client Library
+[INFO] Aadhaar Authentication - Sample GUI
+[INFO] Aadhaar Authentication Reference Sample Application
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Biometric Integration API 1.6
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ uidai-biometric-integration-api ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-biometric-integration-api/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ uidai-biometric-integration-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ uidai-biometric-integration-api ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-biometric-integration-api/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ uidai-biometric-integration-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ uidai-biometric-integration-api ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-biometric-integration-api/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ uidai-biometric-integration-api ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3:install (default-install) @ uidai-biometric-integration-api ---
+[INFO] Installing /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-biometric-integration-api/target/uidai-biometric-integration-api-1.6.jar to /home/webonise/.m2/repository/in/gov/uidai/uidai-biometric-integration-api/1.6/uidai-biometric-integration-api-1.6.jar
+[INFO] Installing /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-biometric-integration-api/pom.xml to /home/webonise/.m2/repository/in/gov/uidai/uidai-biometric-integration-api/1.6/uidai-biometric-integration-api-1.6.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Authentication XSD Model 1.6
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- jaxb2-maven-plugin:2.2:xjc (default) @ uidai-auth-xsd-model ---
+[INFO] Ignored given or default xjbSources [/home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-xsd-model/src/main/xjb], since it is not an existent file or directory.
+[INFO] No changes detected in schema or binding files - skipping JAXB generation.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ uidai-auth-xsd-model ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-xsd-model/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ uidai-auth-xsd-model ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ uidai-auth-xsd-model ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-xsd-model/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ uidai-auth-xsd-model ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ uidai-auth-xsd-model ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-xsd-model/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ uidai-auth-xsd-model ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3:install (default-install) @ uidai-auth-xsd-model ---
+[INFO] Installing /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-xsd-model/target/uidai-auth-xsd-model-1.6.jar to /home/webonise/.m2/repository/in/gov/uidai/uidai-auth-xsd-model/1.6/uidai-auth-xsd-model-1.6.jar
+[INFO] Installing /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-xsd-model/pom.xml to /home/webonise/.m2/repository/in/gov/uidai/uidai-auth-xsd-model/1.6/uidai-auth-xsd-model-1.6.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building UID Protobuf Model 1.6
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.3:run (generate-sources) @ uidai-auth-proto-model ---
+[INFO] Executing tasks
+[INFO] Executed tasks
+[INFO] Registering compile source root /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ uidai-auth-proto-model ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ uidai-auth-proto-model ---
+[INFO] Compiling 2 source files to /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Biometric Integration API ......................... SUCCESS [1.294s]
+[INFO] Authentication XSD Model .......................... SUCCESS [0.568s]
+[INFO] UID Protobuf Model ................................ FAILURE [2.145s]
+[INFO] Authentication Client Library ..................... SKIPPED
+[INFO] Aadhaar Authentication - Sample GUI ............... SKIPPED
+[INFO] Aadhaar Authentication Reference Sample Application  SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.161s
+[INFO] Finished at: Tue Sep 29 15:37:06 IST 2015
+[INFO] Final Memory: 13M/213M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project uidai-auth-proto-model: Compilation failure: Compilation failure:
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:[1139,37] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1150: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<BfdBios> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1855: error: cannot find symbol
+[ERROR] public static com.google.protobuf.Parser<BfdBio> PARSER =
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1866: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<BfdBio> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:319: error: cannot find symbol
+[ERROR] public static com.google.protobuf.Parser<Rbd> PARSER =
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:330: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<Rbd> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:1978: error: cannot find symbol
+[ERROR] public static com.google.protobuf.Parser<Demo> PARSER =
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:1989: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<Demo> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:8309: error: cannot find symbol
+[ERROR] public static com.google.protobuf.Parser<Bios> PARSER =
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:8320: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<Bios> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:9602: error: cannot find symbol
+[ERROR] public static com.google.protobuf.Parser<Pv> PARSER =
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:9613: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<Pv> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3084: error: cannot find symbol
+[ERROR] public static com.google.protobuf.Parser<Pi> PARSER =
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3095: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<Pi> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:4948: error: cannot find symbol
+[ERROR] public static com.google.protobuf.Parser<Pa> PARSER =
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:4959: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<Pa> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:6919: error: cannot find symbol
+[ERROR] public static com.google.protobuf.Parser<Pfa> PARSER =
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:6930: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<Pfa> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:9016: error: cannot find symbol
+[ERROR] public static com.google.protobuf.Parser<Bio> PARSER =
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:9027: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<Bio> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:7752: error: cannot find symbol
+[ERROR] public static com.google.protobuf.Parser<Dob> PARSER =
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:7763: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<Dob> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:754: error: cannot find symbol
+[ERROR] public static com.google.protobuf.Parser<Pid> PARSER =
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:765: error: cannot find symbol
+[ERROR] public com.google.protobuf.Parser<Pid> getParserForType() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class Parser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:246: error: getUnknownFields() in Rbd cannot override getUnknownFields() in GeneratedMessage
+[ERROR] getUnknownFields() {
+[ERROR] ^
+[ERROR] 
+[ERROR] overridden method is final
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:[266,19] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method parseUnknownField(CodedInputStream,Builder,ExtensionRegistryLite,int)
+[ERROR] location: class Rbd
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:298: error: cannot find symbol
+[ERROR] throw e.setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(Rbd)
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:301: error: cannot find symbol
+[ERROR] e.getMessage()).setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(Rbd)
+[ERROR] location: class InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:304: error: cannot find symbol
+[ERROR] makeExtensionsImmutable();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method makeExtensionsImmutable()
+[ERROR] location: class Rbd
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:315: error: cannot find symbol
+[ERROR] .ensureFieldAccessorsInitialized(
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<Rbd>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_bfdserver_protobuf_Rbd_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:320: error: cannot find symbol
+[ERROR] new com.google.protobuf.AbstractParser<Rbd>() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class AbstractParser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:329: error: method does not override or implement a method from a supertype
+[ERROR] @java.lang.Override
+[ERROR] ^
+[ERROR] 
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:[355,14] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method isValidUtf8()
+[ERROR] location: variable bs of type ByteString
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:398: error: cannot find symbol
+[ERROR] if (bs.isValidUtf8()) {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method isValidUtf8()
+[ERROR] location: variable bs of type ByteString
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:598: error: cannot find symbol
+[ERROR] .ensureFieldAccessorsInitialized(
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<Rbd>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_bfdserver_protobuf_Rbd_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:738: error: cannot find symbol
+[ERROR] parsedMessage = (in.gov.uidai.bfdserver.protobuf.Bfd.Rbd) e.getUnfinishedMessage();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method getUnfinishedMessage()
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1078: error: getUnknownFields() in BfdBios cannot override getUnknownFields() in GeneratedMessage
+[ERROR] getUnknownFields() {
+[ERROR] ^
+[ERROR] 
+[ERROR] overridden method is final
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:[1098,19] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method parseUnknownField(CodedInputStream,Builder,ExtensionRegistryLite,int)
+[ERROR] location: class BfdBios
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1115: error: cannot find symbol
+[ERROR] throw e.setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(BfdBios)
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1118: error: cannot find symbol
+[ERROR] e.getMessage()).setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(BfdBios)
+[ERROR] location: class InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1124: error: cannot find symbol
+[ERROR] makeExtensionsImmutable();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method makeExtensionsImmutable()
+[ERROR] location: class BfdBios
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1135: error: cannot find symbol
+[ERROR] .ensureFieldAccessorsInitialized(
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<BfdBios>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_bfdserver_protobuf_BfdBios_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1140: error: cannot find symbol
+[ERROR] new com.google.protobuf.AbstractParser<BfdBios>() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class AbstractParser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1149: error: method does not override or implement a method from a supertype
+[ERROR] @java.lang.Override
+[ERROR] ^
+[ERROR] 
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:[1319,12] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<BfdBios>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_bfdserver_protobuf_BfdBios_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1449: error: cannot find symbol
+[ERROR] parsedMessage = (in.gov.uidai.bfdserver.protobuf.Bfd.BfdBios) e.getUnfinishedMessage();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method getUnfinishedMessage()
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1779: error: getUnknownFields() in BfdBio cannot override getUnknownFields() in GeneratedMessage
+[ERROR] getUnknownFields() {
+[ERROR] ^
+[ERROR] 
+[ERROR] overridden method is final
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:[1799,19] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method parseUnknownField(CodedInputStream,Builder,ExtensionRegistryLite,int)
+[ERROR] location: class BfdBio
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1834: error: cannot find symbol
+[ERROR] throw e.setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(BfdBio)
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1837: error: cannot find symbol
+[ERROR] e.getMessage()).setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(BfdBio)
+[ERROR] location: class InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1840: error: cannot find symbol
+[ERROR] makeExtensionsImmutable();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method makeExtensionsImmutable()
+[ERROR] location: class BfdBio
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1851: error: cannot find symbol
+[ERROR] .ensureFieldAccessorsInitialized(
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<BfdBio>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_bfdserver_protobuf_BfdBio_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1856: error: cannot find symbol
+[ERROR] new com.google.protobuf.AbstractParser<BfdBio>() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class AbstractParser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:1865: error: method does not override or implement a method from a supertype
+[ERROR] @java.lang.Override
+[ERROR] ^
+[ERROR] 
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:[2098,12] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<BfdBio>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_bfdserver_protobuf_BfdBio_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:2234: error: cannot find symbol
+[ERROR] parsedMessage = (in.gov.uidai.bfdserver.protobuf.Bfd.BfdBio) e.getUnfinishedMessage();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method getUnfinishedMessage()
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:2439: error: constructor FieldAccessorTable in class FieldAccessorTable cannot be applied to given types;
+[ERROR] internal_static_in_gov_uidai_bfdserver_protobuf_Rbd_fieldAccessorTable = new
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   required: Descriptor,String[],Class<? extends GeneratedMessage>,Class<? extends Builder>
+[ERROR] found: Descriptor,String[]
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:2445: error: constructor FieldAccessorTable in class FieldAccessorTable cannot be applied to given types;
+[ERROR] internal_static_in_gov_uidai_bfdserver_protobuf_BfdBios_fieldAccessorTable = new
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   required: Descriptor,String[],Class<? extends GeneratedMessage>,Class<? extends Builder>
+[ERROR] found: Descriptor,String[]
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/bfdserver/protobuf/Bfd.java:2451: error: constructor FieldAccessorTable in class FieldAccessorTable cannot be applied to given types;
+[ERROR] internal_static_in_gov_uidai_bfdserver_protobuf_BfdBio_fieldAccessorTable = new
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   required: Descriptor,String[],Class<? extends GeneratedMessage>,Class<? extends Builder>
+[ERROR] found: Descriptor,String[]
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:655: error: getUnknownFields() in Pid cannot override getUnknownFields() in GeneratedMessage
+[ERROR] getUnknownFields() {
+[ERROR] ^
+[ERROR] 
+[ERROR] overridden method is final
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:[675,19] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method parseUnknownField(CodedInputStream,Builder,ExtensionRegistryLite,int)
+[ERROR] location: class Pid
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:733: error: cannot find symbol
+[ERROR] throw e.setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(Pid)
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:736: error: cannot find symbol
+[ERROR] e.getMessage()).setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(Pid)
+[ERROR] location: class InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:739: error: cannot find symbol
+[ERROR] makeExtensionsImmutable();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method makeExtensionsImmutable()
+[ERROR] location: class Pid
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:750: error: cannot find symbol
+[ERROR] .ensureFieldAccessorsInitialized(
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<Pid>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_authserver_protobuf_Pid_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:755: error: cannot find symbol
+[ERROR] new com.google.protobuf.AbstractParser<Pid>() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class AbstractParser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:764: error: method does not override or implement a method from a supertype
+[ERROR] @java.lang.Override
+[ERROR] ^
+[ERROR] 
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:[790,14] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method isValidUtf8()
+[ERROR] location: variable bs of type ByteString
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:833: error: cannot find symbol
+[ERROR] if (bs.isValidUtf8()) {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method isValidUtf8()
+[ERROR] location: variable bs of type ByteString
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:1097: error: cannot find symbol
+[ERROR] .ensureFieldAccessorsInitialized(
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<Pid>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_authserver_protobuf_Pid_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:1277: error: cannot find symbol
+[ERROR] parsedMessage = (in.gov.uidai.authserver.protobuf.Auth.Pid) e.getUnfinishedMessage();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method getUnfinishedMessage()
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:1878: error: getUnknownFields() in Demo cannot override getUnknownFields() in GeneratedMessage
+[ERROR] getUnknownFields() {
+[ERROR] ^
+[ERROR] 
+[ERROR] overridden method is final
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:[1898,19] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method parseUnknownField(CodedInputStream,Builder,ExtensionRegistryLite,int)
+[ERROR] location: class Demo
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:1957: error: cannot find symbol
+[ERROR] throw e.setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(Demo)
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:1960: error: cannot find symbol
+[ERROR] e.getMessage()).setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(Demo)
+[ERROR] location: class InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:1963: error: cannot find symbol
+[ERROR] makeExtensionsImmutable();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method makeExtensionsImmutable()
+[ERROR] location: class Demo
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:1974: error: cannot find symbol
+[ERROR] .ensureFieldAccessorsInitialized(
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<Demo>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_authserver_protobuf_Demo_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:1979: error: cannot find symbol
+[ERROR] new com.google.protobuf.AbstractParser<Demo>() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class AbstractParser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:1988: error: method does not override or implement a method from a supertype
+[ERROR] @java.lang.Override
+[ERROR] ^
+[ERROR] 
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:[2229,12] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<Demo>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_authserver_protobuf_Demo_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:2382: error: cannot find symbol
+[ERROR] parsedMessage = (in.gov.uidai.authserver.protobuf.Auth.Demo) e.getUnfinishedMessage();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method getUnfinishedMessage()
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:2953: error: getUnknownFields() in Pi cannot override getUnknownFields() in GeneratedMessage
+[ERROR] getUnknownFields() {
+[ERROR] ^
+[ERROR] 
+[ERROR] overridden method is final
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:[2973,19] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method parseUnknownField(CodedInputStream,Builder,ExtensionRegistryLite,int)
+[ERROR] location: class Pi
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3063: error: cannot find symbol
+[ERROR] throw e.setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(Pi)
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3066: error: cannot find symbol
+[ERROR] e.getMessage()).setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(Pi)
+[ERROR] location: class InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3069: error: cannot find symbol
+[ERROR] makeExtensionsImmutable();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method makeExtensionsImmutable()
+[ERROR] location: class Pi
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3080: error: cannot find symbol
+[ERROR] .ensureFieldAccessorsInitialized(
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<Pi>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_authserver_protobuf_Pi_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3085: error: cannot find symbol
+[ERROR] new com.google.protobuf.AbstractParser<Pi>() {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   class AbstractParser
+[ERROR] location: package com.google.protobuf
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3094: error: method does not override or implement a method from a supertype
+[ERROR] @java.lang.Override
+[ERROR] ^
+[ERROR] 
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:[3318,14] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method isValidUtf8()
+[ERROR] location: variable bs of type ByteString
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3377: error: cannot find symbol
+[ERROR] if (bs.isValidUtf8()) {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method isValidUtf8()
+[ERROR] location: variable bs of type ByteString
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3506: error: cannot find symbol
+[ERROR] if (bs.isValidUtf8()) {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method isValidUtf8()
+[ERROR] location: variable bs of type ByteString
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3549: error: cannot find symbol
+[ERROR] if (bs.isValidUtf8()) {
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method isValidUtf8()
+[ERROR] location: variable bs of type ByteString
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3781: error: cannot find symbol
+[ERROR] .ensureFieldAccessorsInitialized(
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method ensureFieldAccessorsInitialized(Class<Pi>,Class<Builder>)
+[ERROR] location: variable internal_static_in_gov_uidai_authserver_protobuf_Pi_fieldAccessorTable of type FieldAccessorTable
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:3987: error: cannot find symbol
+[ERROR] parsedMessage = (in.gov.uidai.authserver.protobuf.Auth.Pi) e.getUnfinishedMessage();
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method getUnfinishedMessage()
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:4832: error: getUnknownFields() in Pa cannot override getUnknownFields() in GeneratedMessage
+[ERROR] getUnknownFields() {
+[ERROR] ^
+[ERROR] 
+[ERROR] overridden method is final
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:[4852,19] error: cannot find symbol
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method parseUnknownField(CodedInputStream,Builder,ExtensionRegistryLite,int)
+[ERROR] location: class Pa
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:4927: error: cannot find symbol
+[ERROR] throw e.setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(Pa)
+[ERROR] location: variable e of type InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:4930: error: cannot find symbol
+[ERROR] e.getMessage()).setUnfinishedMessage(this);
+[ERROR] ^
+[ERROR] 
+[ERROR] could not parse error message:   symbol:   method setUnfinishedMessage(Pa)
+[ERROR] location: class InvalidProtocolBufferException
+[ERROR] /home/webonise/Downloads/uidai-auth-client-1.6-src/uidai-auth-proto-model/src/main/java/in/gov/uidai/authserver/protobuf/Auth.java:4933: error: cannot find symbol
+[ERROR] makeExtensionsImmutable();
+[ERROR] ^
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :uidai-auth-proto-model
